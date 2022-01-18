@@ -33,7 +33,7 @@ public class Jefatura extends Empleado implements Jefes {
 		
 		double sueldoJefe = super.dameSueldo();
 		
-		return sueldoJefe + incentivo + bonus;
+		return sueldoJefe + incentivo + bonus + incentivo;
 		
 	}
 	
